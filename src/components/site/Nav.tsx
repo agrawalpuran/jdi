@@ -50,7 +50,7 @@ export function Nav() {
                 key={n.to}
                 to={n.to}
                 className={cn(
-                  "text-sm transition-colors relative py-2",
+                  "text-sm transition-colors relative py-2 whitespace-nowrap shrink-0",
                   active ? "text-foreground" : "text-muted-foreground hover:text-foreground",
                 )}
               >
