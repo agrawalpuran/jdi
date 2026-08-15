@@ -98,7 +98,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "JDI — Jindal Digital Infrastructure" },
       { name: "twitter:description", content: "Jindal Digital Infrastructure (JDI) designs, builds and operates enterprise data centers and AI infrastructure — from GPU clusters to sovereign AI cloud." },
-      { property: "og:image", content: "https://infra-visionary-launch.lovable.app/__l5e/assets-v1/0b50e967-4f0a-4112-b0db-0f016161ed83/jdi-logo.png" },
+      { property: "og:image", content: "/favicon.png" },
       { name: "twitter:image", content: "https://infra-visionary-launch.lovable.app/__l5e/assets-v1/0b50e967-4f0a-4112-b0db-0f016161ed83/jdi-logo.png" },
     ],
     links: [
