@@ -23,7 +23,7 @@ export function Timeline({ data = evolution }: { data?: typeof evolution }) {
                     <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse-slow" />
                   </div>
                   <div className={`${right ? "md:order-2 md:pl-16" : "md:pr-16 md:text-right"} pl-8 md:pl-0`}>
-                    <div className="eyebrow mb-3">{step.year} · {step.phase}</div>
+                  <div className="eyebrow mb-3 text-base md:text-lg tracking-[0.12em]">{step.year} · {step.phase} </div>
                     <h3 className="font-display text-3xl md:text-4xl tracking-tight mb-4 gradient-text">
                       {step.title}
                     </h3>
