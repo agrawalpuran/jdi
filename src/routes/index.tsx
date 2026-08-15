@@ -41,8 +41,8 @@ function Index() {
       <Section id="vision" className="border-t border-hairline">
         <SectionHeader
           eyebrow="Our trajectory"
-          title="From data centers to AI platform."
-          kicker="One continuous engineering discipline, executed across six phases."
+          title="A New Chapter in What We Build."
+          kicker="One continuous engineering discipline, executed across three phases."
         />
         <div className="mt-24">
           <Timeline />

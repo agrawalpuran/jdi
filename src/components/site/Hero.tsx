@@ -20,7 +20,7 @@ export function Hero() {
             <div className="flex items-center gap-3 mb-10">
               <span className="h-px w-8 bg-primary/60" />
               <span className="eyebrow text-primary/80">
-                JDI · Version 01 · Field build
+                JDI  - Jindal Digital Infrastructure
               </span>
             </div>
           </Reveal>
@@ -50,23 +50,7 @@ export function Hero() {
               </CTAButton>
             </div>
           </Reveal>
-        </div>
-
-        <Reveal delay={0.5} className="mt-24 md:mt-32">
-          <div className="flex items-end justify-between gap-8 border-t border-hairline pt-8">
-            <div className="max-w-sm">
-              <p className="eyebrow mb-3">Now shipping</p>
-              <p className="text-sm text-foreground/80 leading-relaxed">
-                220 MW of contracted capacity across six metros. Liquid-cooled halls, GPU-ready
-                from day one.
-              </p>
-            </div>
-            <div className="hidden md:flex items-center gap-2 font-mono text-xs text-muted-foreground">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-              <span>Systems nominal · IN-BOM-04</span>
-            </div>
-          </div>
-        </Reveal>
+        </div>       
       </div>
     </section>
   );

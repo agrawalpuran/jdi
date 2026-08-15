@@ -12,7 +12,7 @@ export const site = {
   nav: [
     { label: "Solutions", to: "/solutions" },
     { label: "Technology", to: "/technology" },
-    { label: "AI Infrastructure", to: "/ai-infrastructure" },
+    { label: "AI Infra", to: "/ai-infrastructure" },
     { label: "Industries", to: "/industries" },
     { label: "Sustainability", to: "/sustainability" },
     { label: "Insights", to: "/insights" },
@@ -71,8 +71,8 @@ export const metrics = [
   { value: "30", suffix: "MW", label: "Planned capacity" },
   { value: "2", label: "Regions" },
   { value: "99.982", suffix: "%", label: "Design availability" },
-  { value: "1.45", label: "Target PUE" },
-  { value: "15", suffix: "kW", label: "Per rack, liquid-cooled" },
+  { value: "N", suffix: "+N", label: "Power Redundancy" },
+  { value: "15", suffix: "kW", label: "Per rack capacity" },
   { value: "N", suffix: "+1", label: "DG & Cooling Redundancy" },
 ] as const;
 
@@ -89,7 +89,7 @@ export const solutions = [
     name: "Hyperscale",
     tag: "At scale",
     body: "Build-to-suit campuses engineered around a single tenant's power, network and thermal profile.",
-    detail: "10 MW to 200 MW deployments. Design, permit, build and operate — under one accountable partner.",
+    detail: "5 MW to 30+ MW deployments. Design, permit, build and operate — under one accountable partner.",
   },
   {
     id: "managed",
@@ -121,10 +121,10 @@ export const solutions = [
   },
   {
     id: "edge",
-    name: "Edge Infrastructure",
+    name: "Disaster Recovery",
     tag: "Distributed",
-    body: "Micro data centers positioned close to users, factories and networks — for real-time inference.",
-    detail: "Prefabricated modules deployable in weeks. Central orchestration. Consistent operational model.",
+    body: "Designed for Continuity.",
+    detail: "Resilient infrastructure, redundant systems and robust recovery capabilities help keep critical workloads protected and operations moving through disruption.",
   },
 ] as const;
 
@@ -132,48 +132,48 @@ export const technology = [
   {
     id: "power",
     name: "Power",
-    body: "N+N redundant utility feeds, 2N UPS, on-site generation with sustainable fuels.",
+    body: "N+N redundant utility feeds, 2N UPS, N+1 DG, on-site generation with sustainable fuels.",
     detail:
-      "Medium-voltage substations, dynamic UPS, and hydrogen-ready gensets deliver five-nines availability without compromise.",
+      "Medium-voltage substations, dynamic UPS, N+1 gensets deliver 99.982% availability without compromise.",
   },
   {
     id: "cooling",
     name: "Cooling",
-    body: "Adiabatic, immersion, and direct-to-chip liquid loops rated for 100 kW densities.",
+    body: "Built for Density. Designed for Resilience.",
     detail:
-      "Free-cooling economizers run 92% of the year. Rear-door heat exchangers and cold-plate loops handle the rest.",
+      "An N+1 cooling architecture with high-efficiency chillers, redundant chilled-water distribution and precision air cooling provides the resilience required for mission-critical AI workloads. The infrastructure is designed to evolve toward liquid cooling as compute densities rise.",
   },
   {
     id: "network",
     name: "Network",
-    body: "Carrier-dense meet-me rooms with 400G spines and sub-millisecond metro fabric.",
+    body: "Designed for AI-Scale Connectivity.",
     detail:
-      "Every facility peers with major IXs, hyperscalers, and subsea landings. Software-defined cross-connects in minutes.",
+      "AI is moving enormous volumes of data between compute, storage and the cloud. Our network is engineered for high bandwidth, low latency and path diversity, with carrier-neutral connectivity and scalable switching designed to support high-density AI clusters, hyperscalers and enterprise workloads.",
   },
   {
     id: "security",
     name: "Security",
-    body: "Six-layer physical security, biometric access, and zero-trust operational networks.",
-    detail: "SOC 2 Type II, ISO 27001, PCI-DSS, HIPAA. Continuous red-team validation and cryptographic audit trails.",
+    body: "Protecting the Infrastructure Behind Intelligence.",
+    detail: "AI and mission-critical workloads demand security that extends from the physical facility to every digital layer. Our architecture combines multi-layer physical security, biometric access, network segmentation, privileged-access controls and continuous monitoring to protect critical infrastructure and customer workloads.",
   },
   {
     id: "operations",
     name: "Operations",
-    body: "ITIL-aligned operations with a single pane of glass across facility, IT, and network layers.",
+    body: "Always On. Always Learning.",
     detail:
-      "24/7/365 NOC with mean time to acknowledge under 90 seconds. Predictive maintenance driven by 40,000+ sensors per site.",
+      "A unified operations platform provides 24/7 visibility across power, cooling, IT and network infrastructure. Continuous telemetry and predictive monitoring help identify anomalies before they become incidents, enabling proactive maintenance and resilient day-to-day operations.",
   },
   {
     id: "automation",
     name: "Automation",
-    body: "Digital twin, closed-loop control, and infrastructure-as-code for the physical world.",
-    detail: "Every rack, every valve, every breaker — modelled, telemetered, and remediated by policy.",
+    body: "Intelligence in Every Layer.",
+    detail: "Automation connects infrastructure, systems and operations into one coordinated environment. Continuous monitoring, intelligent controls and data-driven decision-making help improve efficiency, reliability and responsiveness across the data center.",
   },
   {
     id: "future",
     name: "Future Technologies",
-    body: "Photonic interconnects, on-site SMR pilots, and quantum-ready cryogenic space.",
-    detail: "R&D roadmap partnerships with silicon vendors, national labs, and hyperscale customers.",
+    body: "Built for What Comes Next.",
+    detail: "Our infrastructure is designed to evolve with technology. A flexible architecture, scalable capacity and forward-looking engineering approach allow us to adopt emerging technologies as they mature—keeping the data center ready for the next generation of compute.",
   },
 ] as const;
 
@@ -278,13 +278,14 @@ export const roles = [
 
 export const principles = [
   {
-    title: "Engineering over marketing",
-    body: "We ship the diagram, not the pitch. Every claim is traceable to a design, a sensor, or a signed SLA.",
+    title: "Built for a Viksit Bharat",
+    body: "India’s journey to 2047 demands infrastructure built not just for today, but for the decades ahead. We design data centers with the scale, resilience and efficiency to power India’s digital and AI future..",
   },
   {
-    title: "Density is a discipline",
-    body: "Higher density means better economics, lower carbon, and shorter fibre runs. We design for it from day one.",
+    title: "Built Around Compute",
+    body: "AI infrastructure starts with compute. Every decision—from power and cooling to rack density and network design—is engineered around performance, efficiency and scale.",
   },
+
   {
     title: "Sovereign by design",
     body: "Data, models, and control planes stay where our customers need them — with cryptographic proof.",

@@ -7,10 +7,10 @@ import { Split } from "@/components/site/Split";
 import { InfraDiagram } from "@/components/site/InfraDiagram";
 
 const susMetrics = [
-  { value: "1.18", label: "Target PUE across new-build" },
-  { value: "92", suffix: "%", label: "Free-cooling hours per year" },
-  { value: "100", suffix: "%", label: "Renewable-matched by 2028" },
-  { value: "0", label: "Potable water in new cooling loops" },
+  { value: "1.3", label: "Target PUE across new-build" },
+  { value: "92", suffix: "%", label: "Target Free-cooling hours per year" },
+  { value: "100", suffix: "%", label: "Target Renewable-matched by 2028" },
+  { value: "~50 kW/rack", label: "Target Density" },
 ] as const;
 
 export const Route = createFileRoute("/sustainability")({
@@ -30,8 +30,8 @@ function Sustainability() {
     <>
       <PageHero
         eyebrow="Sustainability"
-        title={<>Lower carbon per <em className="italic text-primary/90">token</em>.</>}
-        kicker="Efficiency isn't a report we publish once a year. It's a design constraint on every single component."
+        title={<>More Compute <em className="italic text-primary/90">Less Energy</em>.</>}
+        kicker="Efficiency is engineered into the facility from the beginning. Our design combines efficient power infrastructure, high-density compute, intelligent cooling and data-driven operations to reduce energy overhead while creating a scalable platform for India's digital and AI future."
       />
 
       <Section className="border-t border-hairline">

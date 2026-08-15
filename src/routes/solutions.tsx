@@ -23,7 +23,8 @@ function Solutions() {
     <>
       <PageHero
         eyebrow="Solutions"
-        title={<>From a cabinet to a <em className="italic text-primary/90">gigawatt</em>.</>}
+        title={<>From Megawatts to <em className="italic text-primary/90">Intelligence at Scale</em>.</>}
+
         kicker="Seven ways to deploy on JDI. One accountable engineering team behind every one of them."
       />
 
