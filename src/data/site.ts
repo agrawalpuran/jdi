@@ -12,7 +12,7 @@ export const site = {
   nav: [
     { label: "Solutions", to: "/solutions" },
     { label: "Technology", to: "/technology" },
-    { label: "AI Infra", to: "/ai-infrastructure" },
+    { label: "AI-Infra", to: "/ai-infrastructure" },
     { label: "Industries", to: "/industries" },
     { label: "Sustainability", to: "/sustainability" },
     { label: "Insights", to: "/insights" },
