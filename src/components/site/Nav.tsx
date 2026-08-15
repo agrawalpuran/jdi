@@ -5,7 +5,7 @@ import { site } from "@/data/site";
 import { CTAButton } from "./CTAButton";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
-import jdiMark from "@/assets/jdi-mark.png.asset.json";
+import jdiMark from "@/assets/jdi-logo.png";
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,7 +31,7 @@ export function Nav() {
       <div className="container-x flex items-center justify-between h-20">
         <Link to="/" className="flex items-center gap-3 group">
           <img
-            src={jdiMark.url}
+            src={jdiMark}
             alt=""
             aria-hidden
             className="h-16 w-auto transition-transform group-hover:scale-105 duration-500 drop-shadow-[0_0_12px_rgba(120,160,255,0.15)]"

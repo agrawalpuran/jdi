@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { site } from "@/data/site";
-import jdiMark from "@/assets/jdi-mark.png.asset.json";
+import jdiMark from "@/assets/jdi-logo.png";
 
 const columns = [
   {
@@ -39,7 +39,7 @@ export function Footer() {
         <div className="grid md:grid-cols-[1.4fr_1fr_1fr_1fr] gap-12 md:gap-16">
           <div>
             <Link to="/" className="flex items-center gap-3 mb-4">
-              <img src={jdiMark.url} alt="" aria-hidden className="h-16 w-auto" />
+              <img src={jdiMark} alt="" aria-hidden className="h-16 w-auto" />
               <span className="font-display text-lg tracking-tight">{site.brand.name}</span>
             </Link>
             <div className="eyebrow mb-6">{site.brand.fullName}</div>
