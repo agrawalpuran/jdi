@@ -96,7 +96,7 @@ function Contact() {
                 <div className="eyebrow mb-4">Facilities</div>
                 <p className="font-mono text-xs text-muted-foreground leading-relaxed">
                   IN-DEL-01 · IN-BLR-02<br />
-                  IN-HYD-01 · IN-MUM-03
+                  IN-HYD-03 · IN-MUM-04
                 </p>
               </div>
             </div>
