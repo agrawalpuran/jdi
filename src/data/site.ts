@@ -62,7 +62,7 @@ export const evolution = [
   {
     year: "2026",
     phase: "AI Data Center",
-    title: "Jindal Digital Infrastructure Pvivate Limited",
+    title: "Jindal Digital Infrastructure Private Limited",
     body: "JDI (Jindal Digital Infrastructure) builds the physical and computational foundation for AI — from enterprise data centers today to GPU clusters, AI compute platforms, and sovereign AI cloud tomorrow.",
   },
 ] as const;
@@ -268,12 +268,12 @@ export const insights = [
 ] as const;
 
 export const roles = [
-  { team: "Engineering", title: "Principal Data Center Architect", location: "Mumbai · Hybrid" },
+  { team: "Engineering", title: "Principal Data Center Architect", location: "Bengaluru · Hybrid" },
   { team: "AI Infrastructure", title: "GPU Cluster Systems Engineer", location: "Bengaluru · On-site" },
-  { team: "Operations", title: "Critical Facilities Manager", location: "Hyderabad · On-site" },
-  { team: "Platform", title: "Staff Software Engineer, Control Plane", location: "Remote · India" },
-  { team: "Networking", title: "Senior Network Engineer, Fabric", location: "Chennai · On-site" },
-  { team: "Sustainability", title: "Head of Energy Strategy", location: "Mumbai · Hybrid" },
+  { team: "Operations", title: "Critical Facilities Manager", location: "Bengaluru · On-site" },
+  { team: "Platform", title: "Staff Software Engineer, Control Plane", location: "Bengaluru · India" },
+  { team: "Networking", title: "Senior Network Engineer, Fabric", location: "Bengaluru · On-site" },
+  { team: "Sustainability", title: "Head of Energy Strategy", location: "Bengaluru · Hybrid" },
 ] as const;
 
 export const principles = [
