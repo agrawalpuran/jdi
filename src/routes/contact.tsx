@@ -18,10 +18,10 @@ export const Route = createFileRoute("/contact")({
 });
 
 const channels = [
-  { label: "Capacity & sales", value: "capacity@halcyon.infra" },
-  { label: "Partnerships", value: "partners@halcyon.infra" },
-  { label: "Press", value: "press@halcyon.infra" },
-  { label: "Investors", value: "investors@halcyon.infra" },
+  { label: "Capacity & sales", value: "capacity@jdi.com" },
+  { label: "Partnerships", value: "partners@jdi.com" },
+  { label: "Press", value: "press@jdi.com" },
+  { label: "Investors", value: "investors@jdi.com" },
 ] as const;
 
 function Contact() {
@@ -88,15 +88,15 @@ function Contact() {
                 <div className="eyebrow mb-4">Head office</div>
                 <p className="text-sm text-foreground/80 leading-relaxed">
                   Jindal Digital Infrastructure Pvt. Ltd.<br />
-                  Bandra-Kurla Complex<br />
-                  Mumbai 400 051 · India
+                  Nehru Road, Opp. The Pride Hotel<br />
+                  New Delhi 110 0001 · India
                 </p>
               </div>
               <div className="pt-8 border-t border-hairline">
                 <div className="eyebrow mb-4">Facilities</div>
                 <p className="font-mono text-xs text-muted-foreground leading-relaxed">
-                  IN-BOM-01 · IN-BOM-04 · IN-BLR-02<br />
-                  IN-HYD-01 · IN-DEL-03 · IN-MAA-01
+                  IN-DEL-01 · IN-BLR-02<br />
+                  IN-HYD-01 · IN-MUM-03
                 </p>
               </div>
             </div>
