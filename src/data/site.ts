@@ -268,12 +268,12 @@ export const insights = [
 ] as const;
 
 export const roles = [
-  { team: "Engineering", title: "Principal Data Center Architect", location: "Bengaluru · Hybrid" },
+  { team: "Engineering", title: "Principal Data Center Architect", location: "Bengaluru · On-site" },
   { team: "AI Infrastructure", title: "GPU Cluster Systems Engineer", location: "Bengaluru · On-site" },
   { team: "Operations", title: "Critical Facilities Manager", location: "Bengaluru · On-site" },
-  { team: "Platform", title: "Staff Software Engineer, Control Plane", location: "Bengaluru · India" },
+  { team: "Platform", title: "Staff Software Engineer, Control Plane", location: "Bengaluru · On-site" },
   { team: "Networking", title: "Senior Network Engineer, Fabric", location: "Bengaluru · On-site" },
-  { team: "Sustainability", title: "Head of Energy Strategy", location: "Bengaluru · Hybrid" },
+  { team: "Sustainability", title: "Head of Energy Strategy", location: "Bengaluru · On-site" },
 ] as const;
 
 export const principles = [
