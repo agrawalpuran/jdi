@@ -75,7 +75,7 @@ export function Footer() {
 
         <div className="mt-10 pt-8 border-t border-hairline flex flex-wrap items-center justify-between gap-4 text-xs text-muted-foreground font-mono">
           <div>
-            © {new Date().getFullYear()} {site.brand.name} Infrastructure Pvt. Ltd.
+            © {new Date().getFullYear()} {site.brand.name} Jindal Digital Infrastructure Pvt. Ltd.
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
