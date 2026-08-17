@@ -88,15 +88,18 @@ function Contact() {
                 <div className="eyebrow mb-4">Head office</div>
                 <p className="text-sm text-foreground/80 leading-relaxed">
                   Jindal Digital Infrastructure Pvt. Ltd.<br />
-                  Nehru Road, Opp. The Pride Hotel<br />
-                  New Delhi 110 0001 · India
+                  No 18, Central Market, Punjabi Bagh (West)<br />
+                  New Delhi 110 026 · India <br />
+                  Phone: +91 11 45020000-10<br />
+                  Phone: +91 11 25228608-9<br />
+                  Fax: +91 11 25227023<br />
+                  Email: info@jdi.com<br />
                 </p>
               </div>
               <div className="pt-8 border-t border-hairline">
                 <div className="eyebrow mb-4">Facilities</div>
                 <p className="font-mono text-xs text-muted-foreground leading-relaxed">
-                  IN-DEL-01 · IN-BLR-02<br />
-                  IN-HYD-03 · IN-MUM-04
+                  IN-DEL-01<br />
                 </p>
               </div>
             </div>
