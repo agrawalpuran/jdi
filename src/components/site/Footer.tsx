@@ -46,7 +46,7 @@ export function Footer() {
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">{site.brand.tagline}</p>
             <div className="mt-8 flex items-center gap-2 font-mono text-[0.7rem] text-muted-foreground">
               <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-              <span>All systems nominal · Global</span>
+              <span></span>
             </div>
           </div>
 

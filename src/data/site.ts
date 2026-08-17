@@ -268,12 +268,12 @@ export const insights = [
 ] as const;
 
 export const roles = [
-  { team: "Engineering", title: "Principal Data Center Architect", location: "Bengaluru · On-site" },
-  { team: "AI Infrastructure", title: "GPU Cluster Systems Engineer", location: "Bengaluru · On-site" },
-  { team: "Operations", title: "Critical Facilities Manager", location: "Bengaluru · On-site" },
-  { team: "Platform", title: "Staff Software Engineer, Control Plane", location: "Bengaluru · On-site" },
-  { team: "Networking", title: "Senior Network Engineer, Fabric", location: "Bengaluru · On-site" },
-  { team: "Sustainability", title: "Head of Energy Strategy", location: "Bengaluru · On-site" },
+  { team: "Engineering", title: "Principal Data Center Architect", location: "Remote" },
+  { team: "AI Infrastructure", title: "GPU Cluster Systems Engineer", location: "Remote" },
+  { team: "Operations", title: "Critical Facilities Manager", location: "Remote" },
+  { team: "Platform", title: "Staff Software Engineer, Control Plane", location: "Remote" },
+  { team: "Networking", title: "Senior Network Engineer, Fabric", location: "Remote" },
+  { team: "Sustainability", title: "Head of Energy Strategy", location: "Remote" },
 ] as const;
 
 export const principles = [
@@ -312,14 +312,14 @@ export const leadership = [
   },
   {
     name: "Shivam Jindal",
-    role: "Director",
-    focus: "Delivery, critical facilities operations, and service reliability across every region.",
+    role: "Director, Finance & Operations",
+    focus: "Project finance, Delivery, critical facilities operations, and service reliability across every region.",
     initials: "SJ",
   },
   {
     name: "Abhishek Verma",
-    role: "Director",
-    focus: "Project finance, capital structure, and the economics of megawatt-scale build-outs.",
+    role: "Director, Government Affairs",
+    focus: "Manage government engagements, regulatory interactions, statutory approvals, and policy-related matters across relevant ministries and authorities.",
     initials: "ABV",
   },
   {
