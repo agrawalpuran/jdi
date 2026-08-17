@@ -85,7 +85,7 @@ function Contact() {
                 </ul>
               </div>
               <div className="pt-8 border-t border-hairline">
-                <div className="eyebrow mb-4">Head office</div>
+                <div className="eyebrow mb-4">Office</div>
                 <p className="text-sm text-foreground/80 leading-relaxed">
                   Jindal Digital Infrastructure Pvt. Ltd.<br />
                   No 18, Central Market, Punjabi Bagh (West)<br />
