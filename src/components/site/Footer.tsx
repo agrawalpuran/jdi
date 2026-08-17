@@ -44,10 +44,7 @@ export function Footer() {
             </Link>
             <div className="eyebrow mb-6">{site.brand.fullName}</div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">{site.brand.tagline}</p>
-            <div className="mt-8 flex items-center gap-2 font-mono text-[0.7rem] text-muted-foreground">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-             </div>
-          </div>
+            </div>
 
           {columns.map((col) => (
             <div key={col.title}>
